@@ -16,11 +16,50 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 12px;
 }
 
 input {
   border: 1px solid #ddd;
   border-radius: 16px;
   padding: 8px 24px;
+  margin-bottom: 15px;
   width: 400px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  background-color: #eee;
+}
+
+.right-links,
+.left-links {
+  display: flex;
+  gap: 15px;
+  padding: 15px;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content {
+  text-align: center;
 }
